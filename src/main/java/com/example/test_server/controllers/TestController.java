@@ -68,7 +68,7 @@ public class TestController {
         String message = messageSource.getMessage("test.message.formatted_clause",
                 new Object[] {request.getNumberA(), request.getNumberB(), sum},
                 locale);
-        map.put("result",message);
+        map.put("result-is",message);
         return map;
     }
 
